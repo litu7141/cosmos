@@ -1,0 +1,85 @@
+<html>
+ <head>
+ <title>Student Information</title>
+ </head>
+ <body>
+ <script language="javascript">
+ function gologin(){
+	window.location="USER_studentfc.jsp";
+	}
+	</script>
+ 
+ 
+<body background="elogbg.jpg">
+<center>
+<table width="95%">
+   <tr height="70" bgcolor="Black">
+      <td align="center" valign="middle">
+	     <font face="elephant"size="5" color="white">
+		     Student Registration System
+		 </font>
+		 
+	  </td>
+   </tr>
+</table>
+<center>
+ <font face="elephant" color="Blue" size="5">
+ Student Information
+ </font>
+ </center>
+<br>
+<form name="f1" action="USER_students.jsp" method="get">
+ <table width="800" border="0">
+ <tr>
+ <td align="left">Student ID :</td>
+ <td><input type="text" name="txtstuid"  required>*</td>
+ </tr>
+<tr>
+ <td align="left">Student Name :</td>
+<td><input type="text" name="txtstuname" size="35" required>*</td>
+</tr> 
+<tr>
+<td align="left">E-Mailid :</td>
+<td><input type="email" name="txtmail" required>*</td>
+</td>
+</tr>
+<tr>
+<td align="left">Class:</td>
+<td><input type="text" name="txtclass" size="35"></td>
+</tr>
+ <tr>
+ <td align="left">Enrollment Year :</td>
+ <td><input type="text" name="txtyear" size="35"></td>
+ </tr>
+<tr>
+<td align="left">City :</td>
+<td><input type="text" name="txtcity"></td>
+</tr>
+<tr>
+<td align="left">Country :</td>
+<td><input type="text" name="txtcountry" required>*</td>
+</tr>
+</table>
+</table>
+<br><br><br><br>
+<center>
+<input type="submit" name="btnsave" value="Submit">&nbsp;&nbsp;
+<input type="button" name="btnclear" value="reset" onclick="gologin()">&nbsp;&nbsp;
+</center>
+</font>
+</form>
+<br>
+<table width="95%">
+   <tr height="60" bgcolor="Black">
+      <td align="right" valign="middle">
+	     <font face="elephant" size="4" color="White">
+		   <marquee> &copy; Student Registration System</marquee>
+		 </font>
+		 
+	  </td>
+   </tr>
+</table>
+</center>
+</body>
+</html>
+
